@@ -1,0 +1,18 @@
+.grid {
+    grid-auto-columns: auto;
+}
+
+.card {
+    flex-direction: row;
+    align-items: center;
+    margin-top: 50px
+}
+
+.card-img-left {
+    width: 40%;
+}
+
+.card-title {
+    font-weight: bold;
+    color: #800020
+}
