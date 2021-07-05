@@ -5,14 +5,12 @@
 .card {
     flex-direction: row;
     align-items: center;
-    margin-top: 50px
-}
-
-.card-img-left {
-    width: 40%;
+    margin-top: 25px;
+    margin-right: 25px
 }
 
 .card-title {
     font-weight: bold;
     color: #800020
 }
+

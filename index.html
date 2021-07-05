@@ -22,6 +22,7 @@
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
@@ -30,16 +31,16 @@
                     </li>
 
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-expanded="false">
                             Data Visualizations
                         </a>
 
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="viz_page_1.html">Data Viz 1</a></li>
-                            <li><a class="dropdown-item" href="viz_page_2.html">Data Viz 2</a></li>
-                            <li><a class="dropdown-item" href="viz_page_3.html">Data Viz 3</a></li>
-                            <li><a class="dropdown-item" href="viz_page_4.html">Data Viz 4</a></li>
+                            <li><a class="dropdown-item" href="viz_page_1.html">Temperature (F)</a></li>
+                            <li><a class="dropdown-item" href="viz_page_2.html">Humidity (%)</a></li>
+                            <li><a class="dropdown-item" href="viz_page_3.html">Cloudiness (%)</a></li>
+                            <li><a class="dropdown-item" href="viz_page_4.html">Wind Speed (mph)</a></li>
                         </ul>
                     </li>
 
@@ -52,6 +53,7 @@
                     </li>
                 </ul>
             </div>
+
         </div>
     </nav>
 
@@ -60,12 +62,14 @@
 
         <div class="row justify-content-md-center">
 
-            <div class="col-md-auto">
-                <div class="card">
-                    <img src="Resources/assets/images/Fig1.png" class="card-img-left" alt="Work In Progress">
-                    <div class="card-body">
-                        <h5 class="card-title">Analysis of World Weather by Latitude</h5>
-                        <p class="card-text">
+            <div class="card mb-12" style="max-width: 1100px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="Resources/assets/images/Fig1.png" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Analysis of World Weather by Latitude</h5>
                             <br>
                             This project focused on analyzing the weather conditions across different Latitudes.
                             Using data collected from the OpenWeatherMap API on May 24th 2021 for a set of over 500
@@ -74,71 +78,86 @@
                             (mph), and cloudiness (%).
                             <br><br>
                             This site briefly describes the data, visualizations, and findings of this project.
+                            Click below to learn more about how latitude affects different weather conditions.
                             <br>
-                        </p>
+                        </div>
                     </div>
                 </div>
-
             </div>
         </div>
 
-    </div>
+        <div class="row justify-content-md-center">
 
-    <div class="row justify-content-md-center">
-        <div class="card">
-            <div class="card-body">
-                <h5 class="card-title">Analysis of World Weather by Latitude</h5>
+            <div class="card mb-3" style="max-width: 535px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="Resources/assets/images/Fig1.png" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Temperature (F)</h5>
+                            <a href="viz_page_1.html" class="btn btn-primary">Learn more</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
 
-    <div class="row justify-content-md-center">
-        <div class="col-md-3">
-            <div class="card">
-                <img src="Resources/assets/images/Fig1.png" class="card-img-top" alt="Work In Progress">
-                <div class="card-body">
+            <div class="card mb-3" style="max-width: 535px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="Resources/assets/images/Fig2.png" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Humidity (%)</h5>
+                            <a href="viz_page_2.html" class="btn btn-primary">Learn more</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
 
-        <div class="col-md-3">
-            <div class="card">
-                <img src="Resources/assets/images/Fig1.png" class="card-img-top" alt="Work In Progress">
-                <div class="card-body">
+        <div class="row justify-content-md-center">
+
+            <div class="card mb-3" style="max-width: 535px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="Resources/assets/images/Fig3.png" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Cloudiness (%)</h5>
+                            <a href="viz_page_3.html" class="btn btn-primary">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card mb-3" style="max-width: 535px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="Resources/assets/images/Fig4.png" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Wind Speed (mph)</h5>
+                            <a href="viz_page_4.html" class="btn btn-primary">Learn more</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <div class="row justify-content-md-center">
-        <div class="col-md-3">
-            <div class="card">
-                <img src="Resources/assets/images/Fig1.png" class="card-img-top" alt="Work In Progress">
-                <div class="card-body">
-                </div>
-            </div>
-        </div>
-
-        <div class="col-md-3">
-            <div class="card">
-                <img src="Resources/assets/images/Fig1.png" class="card-img-top" alt="Work In Progress">
-                <div class="card-body">
-                </div>
-            </div>
-        </div>
-    </div>
-
-    </div>
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
 </body>
 
 </html>
