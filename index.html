@@ -14,12 +14,11 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">D. Roman</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
@@ -57,29 +56,59 @@
         </div>
     </nav>
 
-
     <div class="container">
 
         <div class="row justify-content-md-center">
 
             <div class="card mb-12" style="max-width: 1100px;">
-                <div class="row g-0">
-                    <div class="col-md-6 verticalcenter">
-                        <img src="Resources/assets/images/map.png" class="img-fluid rounded-start" alt="...">
+                <img src="Resources/assets/images/map.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Analysis of City Weather by Latitude</h5>
+                    <p class="card-text">
+                        <br>
+                        This project focused on analyzing the weather conditions across different Latitudes.
+                        Using data collected from the OpenWeatherMap API on May 24th 2021 for a set of over 500
+                        cities worldwide, I used Matplotlib to compare Latitude by temperature (F), humidity
+                        (%), wind speed
+                        (mph), and cloudiness (%).
+                        <br><br>
+                        This site briefly describes the data, visualizations, and findings of this project.
+                        Click below to learn more about how latitude affects different weather conditions.
+                        <br>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-md-center">
+
+            <div class="col-sm">
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-lg-4">
+                            <img src="Resources/assets/images/Fig1.png" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-lg-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Temperature (F)</h5>
+                                <a href="viz_page_1.html" class="btn btn-primary">Learn more</a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-md-6">
-                        <div class="card-body">
-                            <h5 class="card-title">Analysis of City Weather by Latitude</h5>
-                            <br>
-                            This project focused on analyzing the weather conditions across different Latitudes.
-                            Using data collected from the OpenWeatherMap API on May 24th 2021 for a set of over 500
-                            cities worldwide, I used Matplotlib to compare Latitude by temperature (F), humidity
-                            (%), wind speed
-                            (mph), and cloudiness (%).
-                            <br><br>
-                            This site briefly describes the data, visualizations, and findings of this project.
-                            Click below to learn more about how latitude affects different weather conditions.
-                            <br>
+                </div>
+            </div>
+
+            <div class="col-sm">
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-lg-4">
+                            <img src="Resources/assets/images/Fig2.png" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-lg-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Humidity (%)</h5>
+                                <a href="viz_page_2.html" class="btn btn-primary">Learn more</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -88,61 +117,33 @@
 
         <div class="row justify-content-md-center">
 
-            <div class="card mb-3" style="max-width: 535px;">
-                <div class="row g-0">
-                    <div class="col-md-4">
-                        <img src="Resources/assets/images/Fig1.png" class="img-fluid rounded-start" alt="...">
-                    </div>
-                    <div class="col-md-8">
-                        <div class="card-body">
-                            <h5 class="card-title">Temperature (F)</h5>
-                            <a href="viz_page_1.html" class="btn btn-primary">Learn more</a>
+            <div class="col-sm">
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-lg-4">
+                            <img src="Resources/assets/images/Fig3.png" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-lg-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Cloudiness (%)</h5>
+                                <a href="viz_page_3.html" class="btn btn-primary">Learn more</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="card mb-3" style="max-width: 535px;">
-                <div class="row g-0">
-                    <div class="col-md-4">
-                        <img src="Resources/assets/images/Fig2.png" class="img-fluid rounded-start" alt="...">
-                    </div>
-                    <div class="col-md-8">
-                        <div class="card-body">
-                            <h5 class="card-title">Humidity (%)</h5>
-                            <a href="viz_page_2.html" class="btn btn-primary">Learn more</a>
+            <div class="col-sm">
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-lg-4">
+                            <img src="Resources/assets/images/Fig4.png" class="img-fluid rounded-start" alt="...">
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="row justify-content-md-center">
-
-            <div class="card mb-3" style="max-width: 535px;">
-                <div class="row g-0">
-                    <div class="col-md-4">
-                        <img src="Resources/assets/images/Fig3.png" class="img-fluid rounded-start" alt="...">
-                    </div>
-                    <div class="col-md-8">
-                        <div class="card-body">
-                            <h5 class="card-title">Cloudiness (%)</h5>
-                            <a href="viz_page_3.html" class="btn btn-primary">Learn more</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="card mb-3" style="max-width: 535px;">
-                <div class="row g-0">
-                    <div class="col-md-4">
-                        <img src="Resources/assets/images/Fig4.png" class="img-fluid rounded-start" alt="...">
-                    </div>
-                    <div class="col-md-8">
-                        <div class="card-body">
-                            <h5 class="card-title">Wind Speed (mph)</h5>
-                            <a href="viz_page_4.html" class="btn btn-primary">Learn more</a>
+                        <div class="col-lg-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Wind Speed (mph)</h5>
+                                <a href="viz_page_4.html" class="btn btn-primary">Learn more</a>
+                            </div>
                         </div>
                     </div>
                 </div>

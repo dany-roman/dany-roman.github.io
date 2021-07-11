@@ -13,3 +13,30 @@
     color: #800020
 }
 
+@media (max-width: 500px) {
+
+    .navbar {
+        padding: 0px 0px;
+    }
+    
+    a.navbar-brand {
+        font-weight: bold;
+        padding-left: 10px;
+    }
+    
+    ul.dropdown-menu.show {
+        background-color: white
+    }
+    .nav-item {
+        padding-left: 10px
+    }
+    .container-fluid {
+        background-color: #800020;
+    }
+    
+    a {
+        color: white;
+    }
+    
+
+}
